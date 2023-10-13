@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>wedplan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+body  {
+  background-image: url("D:/KAVYA/Internet_technologies/mywebsite/mywebsiteimages/redflowers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+section{
+   padding:2rem;
+}
+.header{
+   position: relative;
+   align-items: center;
+   justify-content: space-between;
+}
+.header .navbar a{
+   font-size: 2rem;
+   margin-left: 2rem;
+   text-decoration: none;
+   color:green;
+}
+
+.header .navbar a:hover{
+   color:var(--pink);
+}
+.homehands
+{
+display: flex;
+justify-content: center;
+}
+#rrr
+{
+margin-left: 7rem;
+}
+.ttt
+{
+margin-left: 18rem;
+font-size: 2rem;
+}
+#but                                  
+{
+margin-left: 27rem;
+background-color:lightgreen;
+color:red;
+font-size:25px;
+}
+#ii
+{
+margin-right: 4rem;
+}
+#hh
+{
+margin-left: 4rem;
+}
+.tab1
+{
+tab-size: 2;
+}
+.con
+{
+border:1px solid black;
+cellpadding:5px;
+cellspacing:5px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #800000;
+  align: center;
+  margin-left: 18rem;
+  margin-right:14rem;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 30px; 
+  color: green;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+<!--  padding: 14px 16px; -->
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 31px;
+  border: none;
+  outline: none;
+  color: green;
+  padding: 14px 16px;  
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;  
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+.h{
+padding: 14px 16px;
+}
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 30rem;
+  background-color: red;
+  width: 48%;
+  z-index: 1;
+}
+.price1{
+left: 40rem;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+select
+{
+width: 170px;
+height: 20px;
+}
+</style>
+
+</head>
+<body>
+<script>
+function myFunctionsubmit() {
+var val=document.myform.fname.value;
+var val1=document.myform.lname.value;
+var val3=document.myform.number.value;
+var val4=document.myform.email.value;
+if(val!="" && val1!="" && val3!="" && val4!=""){
+alert("Registered successfully");
+return true;
+}
+else{
+alert("Please enter the details");
+return false;
+}
+}
+</script>
+
+<h1 id="rrr" style="color:green;"><img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\heart.png" width="40" height="30";>
+<img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\heart.png" width="40" height="30";>
+<img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\heart.png" width="40" height="30";>
+TOGETHER FOREVER
+<img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\heart.png" width="40" height="30";>
+<img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\heart.png" width="40" height="30";>
+<img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\heart.png" width="40" height="30";></h1>
+<section class="header">
+ <nav class="navbar" align="center"><b>
+  <a href="#home" class="h">HOME</a>
+  <div class="subnav">
+   <button class="subnavbtn"><b>OUR SERVICES</b><i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+	 <a href="D:\KAVYA\Internet_technologies\mywebsite\decoration.html">Decoration</a>
+	 <a href="D:\KAVYA\Internet_technologies\mywebsite\makeup.html">Makeup and hairstyling</a>
+	 <a href="D:\KAVYA\Internet_technologies\mywebsite\mehendi.html">Mehendi</a>
+	 <a href="D:\KAVYA\Internet_technologies\mywebsite\catering.html">Catering</a>
+	 <a href="D:\KAVYA\Internet_technologies\mywebsite\photography.html">Photography</a>
+	</div>
+   </div>
+   <div class="subnav" >
+    <button class="subnavbtn"><b >PRICING</b><i class="fa fa-caret-down"></i></button>
+	 <div class="subnav-content">
+	  <div class="price1">
+	  <a href="D:\KAVYA\Internet_technologies\mywebsite\sm.html">Simple</a>
+	  <a href="D:\KAVYA\Internet_technologies\mywebsite\gm.html">Grand</a>
+	  <a href="D:\KAVYA\Internet_technologies\mywebsite\rm.html">Royal</a>
+	  </div>
+	</div>
+   </div>
+  <div class="subnav">
+   <button class="subnavbtn"><b>CONTACT</b><i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+     <a href="#contact">Kavya.B.J</a>
+	 <a href="#contact">Kavya.D</a>
+	 <a href="#contact">Gnana Prasunna</a>
+	</div>
+  </div>
+  <div class="subnav">
+   <button class="subnavbtn"><b>LOGIN</b><i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+	 <a href="#login">Register</a>
+     <a href="https://google.com">Log Out</a> 
+	</div>
+  </div>
+ </nav>
+</section>
+<div class="homehands">
+<img id="hh" src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\hands.jpg" width="920" height="500" align="center">
+</div><br><br><br>
+<h1 align="center" style="color:green;" id="login">Login Details</h1>
+<table class="ttt" style="color:green;" >
+<form name="myform"  action="#">
+<tr><td>First Name:</td><td><input type="name" name="fname"></td></tr><img align="right" src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\white.jpg" id="ii" width="700" height="340">
+<tr><td>Last Name:</td><td><input type="name" name="lname"></td></tr>
+<tr><td>Mobile Number:</td><td><input type="mobile number" name="number"></td></tr>
+<tr><td>Email:</td><td><input type="email" name="email"></td></tr>
+<tr><td>Address:</td><td><textarea name="address" rows="4" cols="20"></textarea></td></tr>
+<tr><td>Select Option:</td><td><select name="looks" id="function" ><option value="simple">Simple</option><option value="grand">Grand</option><option value="royal">Royal</option></select></td></tr>
+
+</table><br>
+<input type="button"  onclick="myFunctionsubmit()" value="Submit" name="submitbutton"  style="margin-left: 27rem;"  >  
+</form>
+<br><br><br>
+<h1 style="color:green;" align="center">OUR SERVICES</h1>
+<h2 align="center"><b>We Handle Everything</b></h2>
+<h2 align="center" >We have a curated list of high quality services</h2>
+<h1 style="color:#A52A2A;" align="center"><b>Decoration</b></h1>
+<img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\whites.png" width="500" height="400"><img class="tab1" src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\thirddec.png" width="500" height="400"><img class="tab1" src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\decind.jpg" width="500" height="400">
+<h1 style="color:#A52A2A;" align="center"><b>Makeup and hairstyling</b></h1>
+<img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\make1.jpg" width="380" height="400"><img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\make2.jpg" width="400" height="400"><img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\make3.jpg" width="350" height="400"><img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\make4.jpg" width="369" height="400">
+<h1 style="color:#A52A2A;" align="center"><b>Mehendi</b></h1>
+<img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\mehendi1.jpg" width="500" height="400"><img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\mehendi2.jpg" width="500" height="400"><img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\mehendi3.png" width="500" height="400">
+<h1 style="color:#A52A2A;" align="center"><b>Catering</b></h1>
+<img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\cat1.jpeg" width="500" height="400"><img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\cat2.jpg" width="500" height="400"><img src="D:\KAVYA\Internet_technologies\mywebsite\mywebsiteimages\cat3.jpg" width="500" height="400">
+<br><br><br>
+<h1 style="color:#A52A2A;" align="center" id="contact">CONTACT</h1>
+<table align="center" class="con" cellpadding="20px" cellspacing="5px" style="background-color:lightgreen;">
+<tr class="con"><td class="con" style="color:green;">Kavya.B.J</td><td class="con" style="color:green;">Gnana Prasunna</td><td class="con" style="color:green;">Kavya.D</td></tr>
+<tr class="con"><td class="con" style="color:green;">9148361051</td><td class="con" style="color:green;">7075082259</td><td class="con" style="color:green;">7483274566</td></tr>
+</table>
+</body>
+</html>
